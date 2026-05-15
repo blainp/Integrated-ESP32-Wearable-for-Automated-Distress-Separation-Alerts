@@ -1,5 +1,5 @@
 # Wearable System For Automated Separation Alerts
-This project features a wearable ESP32-C3 based distress beacon designed to provide a redundant safety layer by monitoring a persistent Wi-Fi handshake with a user’s smartphone. By leveraging iOS Shortcuts to detect an immediate state-change upon connection loss, the system triggers an automated emergency alert to pre-defined contacts if the devices are forcibly separated. The implementation prioritizes an inconspicuous form factor and optimized power management, utilizing a recycled lithium-ion cell to maintain a low-power discovery service for extended field use.
+This project features a wearable ESP32-C3 based distress beacon designed to provide a redundant safety layer by monitoring a persistent Wi-Fi handshake with a user’s smartphone. By leveraging iOS Shortcuts to detect an immediate state-change upon connection loss, the system triggers an automated emergency alert to pre-defined contacts if this device and a user's phone are forcibly separated. The implementation prioritizes an inconspicuous form factor and optimized power management, utilizing a recycled lithium-ion cell to maintain a low-power discovery service for extended field use.
 
 ---
 
