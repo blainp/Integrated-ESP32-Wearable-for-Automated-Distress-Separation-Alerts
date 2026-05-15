@@ -1,0 +1,2 @@
+# Integrated-ESP32-Wearable-for-Automated-Distress-Separation-Alerts
+ESP32-C based distress beacon designed to provide a redundant safety alert by monitoring a persistent Wi-Fi handshake with a user’s smartphone. By leveraging iOS Shortcuts to detect an immediate state-change upon connection loss, the system triggers an automated emergency alert to pre-defined contacts if the devices are forcibly separated. 
