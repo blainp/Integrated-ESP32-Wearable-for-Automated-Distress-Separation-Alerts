@@ -5,8 +5,8 @@ This project features a wearable ESP32-C3 based distress beacon designed to prov
 
 ## Project Overview
 <p align="center">
-  <img width="424" src="https://github.com/user-attachments/assets/93eb603f-b4d4-41a7-8a43-496c608952b2" alt="System Diagram">
-  <img width="376" alt="Screenshot 2025-11-25 133809" src="https://github.com/user-attachments/assets/9647b5d3-e0db-49aa-8af9-4785628f9f04" />
+  <img width="424" src="https://github.com/user-attachments/assets/f7e0c13f-399c-461b-8a2c-9a949f581fa2" alt="System Diagram">
+  <img width="376" alt="Screenshot 2026-05-14 211847" src="https://github.com/user-attachments/assets/92966204-dbbe-4891-85a3-308ea2914961" />
 </p>
 
 This device was developed to address a critical oversight in the standard use of technology for personal safety. If a vulnerable individual who was travelling in isolation and did not have access to an immediate support network were to be assulted or abducted, the first thing most assailants would do is forcibly discard their smartphone or render them incapable of utilizing it to call for help. By implementing a redundant tether between the wearer's Iphone and this device, which would be hidden on the wearers body, an alert could be sent regardless of whether or not the user has access to their device, or is physically capable of utilizng their device to call for help. While platforms like the Apple Watch or AirTag offer location tracking, they lack native "dead man's switch" functionality and are increasingly limited by anti-stalking features that alert unauthorized parties to their presence. By utilizing the iOS Shortcuts ecosystem, this project implements a custom hardware-to-software handshake that triggers automated distress signals based on network state changes, bypassing the functional limitations of consumer-grade trackers.
